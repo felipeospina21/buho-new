@@ -16,7 +16,11 @@ const MiradorPage = () => {
   return (
     <>
       <SEO title="mirador búho" />
-      <Hero text="Mirador Búho" src="s7.jpg" alt="foto del mirador de búho" />
+      <Hero
+        text="Mirador Búho"
+        src="hero5.jpg"
+        alt="foto del mirador de búho"
+      />
       <Box m="2rem auto" maxW="1000px">
         <Box m={["1.5rem 0.8rem 0 0.8rem"]} flexDir="column">
           <Heading as="h3" size="lg" mb="1rem">

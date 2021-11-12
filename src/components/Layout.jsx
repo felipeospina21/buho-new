@@ -6,7 +6,7 @@ import { Box } from "@chakra-ui/react"
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <Box maxW="1800px" m='auto'>
       <Header />
       <Box
         as="main"
@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
         {children}
       </Box>
       <Footer />
-    </div>
+    </Box>
   )
 }
 

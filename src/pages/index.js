@@ -13,7 +13,7 @@ const IndexPage = () => {
       <SEO title="Inicio" />
       <Hero
         text="Búho"
-        src="panoramica_auto.jpg"
+        src="hero3.jpg"
         alt="Imagen panorámica de restaurante búho"
       />
       <About />

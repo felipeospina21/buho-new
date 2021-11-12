@@ -8,7 +8,7 @@ const ConocenosPage = () => {
   return (
     <>
       <SEO title="conócenos" />
-      <Hero text="Conócenos" src="s4.jpg" alt="foto" />
+      <Hero text="Conócenos" src="hero4.jpg" alt="foto" />
       <Box m="2rem auto" maxW="1100px">
         <Center m={["1.5rem 0.8rem"]} flexDir="column">
           <Text fontSize={[null, "2xl"]}>
