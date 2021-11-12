@@ -25,6 +25,21 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: "gatsby-firesource",
+      options: {
+        credential: require("./credentials.json"),
+        types: [
+          {
+            type: `Kioskos`,
+            collection: `kioskos`,
+            map: doc => ({
+              capacity: doc.capacity,
+            }),
+          },
+        ],
+      },
+    },
     // {
     //   resolve: `gatsby-source-firebase-collections`,
     //   options: {

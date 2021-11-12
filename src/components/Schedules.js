@@ -1,5 +1,5 @@
 import React from "react"
-import { Box, Button, Container, Heading } from "@chakra-ui/react"
+import {  Button, Container, Heading } from "@chakra-ui/react"
 
 const Schedules = ({ setBookingTime }) => {
   const schedules = ["10am-12pm", "12pm-2pm", "2pm-4pm", "4pm-6pm"]

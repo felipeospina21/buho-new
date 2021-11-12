@@ -4,7 +4,7 @@ import es from "date-fns/locale/es"
 import addMonths from "date-fns/addMonths"
 import getDay from "date-fns/getDay"
 
-import colombianHolidays from "colombian-holidays"
+// import colombianHolidays from "colombian-holidays"
 import { Heading, Input } from "@chakra-ui/react"
 import "react-datepicker/dist/react-datepicker.css"
 
@@ -26,16 +26,16 @@ const DatePickerContainer = ({
     return day !== 2 && day !== 3 && day !== 4
   }
 
-  const colombianHolidaysObj = colombianHolidays()
-  const colombianHolidaysArr = colombianHolidaysObj.map(dateObj => {
-    const dateArr = dateObj.celebrationDate.split("-")
-    return {
-      year: dateArr[0],
-      month: dateArr[1],
-      day: dateArr[2],
-    }
-  })
-  // console.log(colombianHolidaysArr)
+  // const colombianHolidaysObj = colombianHolidays()
+  // const colombianHolidaysArr = colombianHolidaysObj.map(dateObj => {
+  //   const dateArr = dateObj.celebrationDate.split("-")
+  //   return {
+  //     year: dateArr[0],
+  //     month: dateArr[1],
+  //     day: dateArr[2],
+  //   }
+  // })
+  // // console.log(colombianHolidaysArr)
 
   return (
     <>
